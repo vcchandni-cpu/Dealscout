@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deal Scout - Price Comparison</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Deal Scout 💰</h1>
+        <p>Find the absolute lowest price instantly.</p>
+    </header>
+
+    <div class="search-container">
+        <form id="search-form">
+            <input type="text" id="product-query" placeholder="Enter product name (e.g., 'Sony WH-1000XM5')" required>
+            <button type="submit">Search</button>
+        </form>
+    </div>
+
+    <hr>
+
+    <div class="results-container">
+        <h2>Comparison Results</h2>
+        <table id="price-table">
+            <thead>
+                <tr>
+                    <th>Platform</th>
+                    <th>Price</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                </tbody>
+        </table>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
