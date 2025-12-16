@@ -20,9 +20,7 @@ Fast prototyping with real-time AI responses
 
 Clean, modular Python-based implementation
 
-Architecture & Tech Stack
-
-LLM: Google Gemini (via Gemini APIs)
+LLM: Google Gemini
 
 Programming Language: Python
 
@@ -36,7 +34,7 @@ Instruction-based generation
 
 Structured output formatting
 
-APIs: Gemini API for text generation and reasoning
+APIs: Coles API (for testing)
 
 Prompt Engineering Approach
 
@@ -71,7 +69,7 @@ Business-aligned responses
 
 Example Use Cases
 
-Evaluating e-commerce discounts and flash sales
+Evaluating e-commerce discounts and one click redirection to the required e-commerce store
 
 Comparing competing offers for the same product
 
@@ -86,8 +84,6 @@ Modular prompt design for easy iteration and reuse
 Clear separation between prompt logic and API execution
 
 Rapid experimentation and deployment workflow
-
-Designed with extensibility for future RAG or pricing intelligence integration
 
 Future Enhancements
 
